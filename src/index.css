@@ -1,13 +1,57 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding:0;
 }
+.header{
+  display: flex;
+background-color: orange;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+.header h1{
+  margin-left: 10px;
+  font-family: 'Lobster', cursive;
+}
+footer{
+  position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+  
+}
+footer p{
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+ 
+}
+.fdiv{
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+input{
+  width: 100%;
+ display: block;
+ border : 2px white solid;
+  outline:white;
+}
+textarea{
+  width: 100%;
+  margin-top: 10px;
+  border : 2px white solid;
+  outline: white;
+}
+.Cards{
+  margin-top: 20px;
+  width: 30%;
+  
+}
+.Addbutton{
+ color: orange;
+}
+.Card{
+  margin-top: 20px;
+  width: 20%;
+  margin: 10px;
+  
 }
